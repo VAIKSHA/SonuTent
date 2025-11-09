@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaAward, FaUsers, FaHeart } from 'react-icons/fa';
 
+
 const About = () => {
   const stats = [
     { icon: <FaAward />, number: '500+', label: 'Events Completed' },
@@ -91,7 +92,11 @@ const About = () => {
             </div>
             <div className="text-center">
               <div className="w-64 h-64 bg-gradient-to-br from-royal to-blue-400 rounded-full mx-auto flex items-center justify-center">
-                <span className="text-white text-6xl">🎪</span>
+                <img 
+                  src="/logo-sonu-tent.png"
+                  alt="Sonu Tent & Decoration Lighthouse Logo" 
+                  className="w-32 h-32 object-contain filter brightness-0 invert"
+                />
               </div>
             </div>
           </div>
